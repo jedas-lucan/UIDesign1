@@ -7,13 +7,17 @@
 /* adjusting fonts */
 
 body {
-	font-family: -apple-system, BlinkMacSystemFont, helvetica, arial, sans-serif;
+	font-family: -apple-system, BlinkMacSystemFont, helvetica, arial, fantasy; sans-serif;
 	transition: background 500ms ease;
 }
 
 p, li {
 	font-size:  22px;
 	line-height: 30px;
+}
+
+.dropcap {
+	font-size: 80px;
 }
 
 /* adjusting spacing */
