@@ -17,6 +17,7 @@ p, li {
 }
 
 .dropcap {
+	font-family: fantasy;
 	font-size: 80px;
 }
 
