@@ -1,0 +1,367 @@
+body {
+	background: #cccccc;
+}
+
+#align {
+	display: flex;
+  align-items: center;
+  justify-content: center;	
+  height: 100vh;
+}
+
+#stage {
+	width: 900px;
+	height: 556px;
+	margin: auto;
+	background: #ff007b;
+	position: relative;
+}
+
+#hair {
+	     width: 229px;
+    height: 226px;
+    clip-path: polygon(28% 0%, 36% 27%, 38% 49%, 32% 69%, 28% 78%, 28% 61%, 28% 54%, 23% 75%, 20% 88%, 15% 96%, 15% 100%, 0% 99%, 0% 0%);
+    background: #ffa876;
+    top: 0px;
+    left: 170px;
+    position: absolute;
+}
+
+#face {
+    width: 250px;
+    height: 290px;
+    clip-path: polygon(0 0, 0% 73%, 26% 100%, 47% 100%, 73% 75%, 80% 56%, 88% 54%, 96% 27%, 91% 13%, 82% 13%, 81% 0%);
+    background: #ffe8f1;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+  }
+
+
+ #myeye2 {
+    width: 190px;
+    height: 209px;
+    clip-path: polygon(4% 56%, 34% 32%, 69% 26%, 98% 54%, 69% 64%, 29% 66%);
+    background: #ef8ab2;
+    top: -44px;
+    left: -6px;
+    position: absolute;
+  }
+
+    #myeye {
+    width: 190px;
+    height: 190px;
+    clip-path: polygon(4% 56%, 34% 32%, 69% 26%, 98% 54%, 69% 64%, 29% 66%);
+    background: #afaca1;
+    top: -31px;
+    left: -6px;
+    position: absolute;
+    }
+
+#redeye {
+	  width: 45px;
+    height: 45px;
+    background: #ff003e;
+    border-radius: 150px;
+    top: 38px;
+    left: 107px;
+    position: absolute;
+}
+
+#blackeye {
+	  width: 13px;
+    height: 30px;
+    background: #000000;
+    clip-path: ellipse(25% 40% at 50% 50%);
+    border-radius: 150px;
+    top: 46px;
+    left: 125px;
+    position: absolute;
+  }
+
+    #tongue {
+ width: 114px;
+    height: 64px;
+    background: #b12f4f;
+    clip-path: polygon(4% 100%, 21% 79%, 34% 58%, 38% 42%, 45% 28%, 56% 16%, 70% 15%, 79% 23%, 82% 43%, 80% 62%, 78% 74%, 77% 84%, 78% 91%, 79% 100%, 70% 100%, 66% 100%);  
+    top: 148px;
+    left: 18px;
+    position: absolute;
+    }
+
+#triangle {
+	width: 0;
+	height: 0;
+	border-left: 233px solid transparent;
+	border-right: 98px solid transparent;
+	border-bottom: 78px solid #e7e4ff;
+	position: absolute;
+	top: 113px;
+	left: 212px;
+}
+
+#cake {
+	width: 331px;
+	height: 107px;
+	background: #9688ff;
+	top: 191px;
+	left: 212px;
+	position: absolute;
+}
+
+#cream {
+	width: 150px;
+	height: 150px;
+	background: #f398ae;
+	clip-path: polygon(28% 93%, 6% 83%, 9% 69%, 16% 63%, 22% 64%, 19% 56%, 23% 51%, 31% 51%, 34% 44%, 40% 42%, 51% 46%, 58% 50%, 66% 41%, 64% 33%, 54% 28%, 53% 18%, 62% 24%, 79% 25%, 83% 47%, 81% 58%, 85% 67%, 91% 74%, 93% 87%, 83% 92%, 68% 93%, 49% 91%);
+	top: 45px;
+	left: 329px;
+	position: absolute;
+}
+
+#redcream {
+    width: 331px;
+    height: 240px;
+    background: #b12f4f;
+    clip-path: polygon(0% 0%, 3% 12%, 10% 13%, 14% 7%, 18% 11%, 18% 20%, 19% 28%, 26% 28%, 30% 23%, 30% 17%, 30% 9%, 40% 8%, 40% 15%, 44% 21%, 50% 21%, 54% 15%, 57% 7%, 62% 7%, 63% 13%, 67% 12%, 70% 7%, 73% 5%, 76% 7%, 80% 11%, 85% 10%, 89% 7%, 90% 10%, 89% 19%, 89% 28%, 94% 30%, 98% 25%, 98% 18%, 97% 12%, 100% 3%, 100% 0%);
+    top: 191px;
+    left: 212px;
+    position: absolute;
+
+}
+
+#eye {
+	width: 90px;
+	height: 90px;
+	background: white;
+	border-radius: 150px;
+	top: 82px;
+	left: 331px;
+	position: absolute;
+}
+
+#pupil {
+	width: 67px;
+	height: 30px;
+	background: #5b1de0;
+	clip-path: ellipse(25% 40% at 50% 50%);
+	border-radius: 150px;
+	top: 87px;
+	left: 343px;
+	position: absolute;
+}
+
+#pupil2 {
+	    width: 37px;
+    height: 10px;
+    background: #000000;
+    clip-path: ellipse(25% 40% at 50% 50%);
+    border-radius: 150px;
+    top: 96px;
+    left: 358px;
+    position: absolute;
+}
+
+#square {
+	width: 900px;
+	height: 350px;
+	background: black;
+	top: 206px;
+	left: 0px;
+	position: absolute;
+
+	/* uncomment to add keyframe animation */
+	/* animation: spin 2s infinite; */
+
+}
+
+#circle {
+	width: 800px;
+	height: 165px;
+	clip-path: ellipse(25% 40% at 50% 50%);
+	background: white;
+	border-radius: 1500px;
+	top: 207px;
+	left: -23px;
+	position: absolute;
+}
+
+#circle2 {
+	width: 800px;
+	height: 165px;
+	clip-path: ellipse(25% 40% at 50% 50%);
+	background: gray;
+	border-radius: 1500px;
+	top: 214px;
+	left: -23px;
+	position: absolute;
+}
+
+#cup {
+	    width: 97px;
+    height: 186px;
+    background: #8a8cd1;
+    top: 177px;
+    left: 688px;
+    position: absolute;
+    mix-blend-mode: color-dodge;
+}
+
+#cup2 {
+	width: 110px;
+	height: 209px;
+	background: #4738b9;
+	top: 154px;
+	left: 681px;
+	position: absolute;
+	mix-blend-mode: hard-light;
+
+}
+
+#stick {
+	width: 20px;
+	height: 40px;
+	background: #9688ff;
+	top: 420px;
+	left: 726px;
+	position: absolute;
+		mix-blend-mode: hard-light;
+}
+
+#cupbottom {
+	  width: 200px;
+    height: 49px;
+    clip-path: ellipse(25% 40% at 50% 50%);
+    background: #9688ff;
+    border-radius: 1500px;
+    top: 438px;
+    left: 636px;
+    position: absolute;
+    	mix-blend-mode: hard-light;
+}
+
+#cup3 {
+    width: 110px;
+    height: 81px;
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+    background: #4738b9;
+    top: 339px;
+    left: 681px;
+    position: absolute;
+    mix-blend-mode: hard-light;
+	
+}
+
+#straw {
+	      width: 180px;
+    height: 278px;
+    clip-path: polygon(25% 0%, 33% 0, 8% 100%, 0% 100%);
+    background: #4738b9;
+    top: 84px;
+    left: 733px;
+    position: absolute;
+}
+
+#clip {
+	width: 80px;
+	height: 80px;
+	background: white;
+	clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+	top: 203px;
+	left: 696px;
+	position: absolute;
+	
+
+	/* uncomment for css transitions */
+	/* transition: all 400ms ease; */
+}
+
+
+#blood {
+	width: 300px;
+	height: 200px;
+	background: #ff003e;
+	clip-path: polygon(52% 6%, 29% 14%, 21% 32%, 39% 38%, 34% 47%, 8% 52%, 0% 62%, 4% 70%, 10% 76%, 26% 70%, 38% 63%, 44% 68%, 44% 68%, 39% 75%, 29% 81%, 31% 87%, 40% 95%, 45% 95%, 55% 92%, 64% 88%, 70% 84%, 76% 76%, 76% 76%, 83% 79%, 86% 84%, 91% 87%, 99% 87%, 100% 88%, 100% 4%, 87% 7%);
+	position: absolute;
+	top: 241px;
+	left: 600px;
+}
+
+#blood2 {
+	width: 300px;
+	height: 200px;
+	background: #ff003e;
+	clip-path: polygon(53% 14%, 42% 22%, 27% 29%, 15% 31%, 13% 42%, 13% 51%, 27% 51%, 34% 37%, 43% 34%, 59% 31%, 53% 42%, 32% 65%, 19% 73%, 16% 85%, 16% 94%, 22% 95%, 30% 78%, 37% 65%, 46% 54%, 57% 45%, 62% 35%, 71% 28%, 86% 22%, 92% 13%, 77% 19%, 65% 21%, 62% 14%, 72% 8%);
+	position: absolute;
+	top: 338px;
+	left: 461px;
+}
+
+#blood3 {
+		    width: 82px;
+    height: 48px;
+    background: #ff003e;
+    clip-path: polygon(57% 15%, 39% 23%, 24% 24%, 12% 46%, 13% 71%, 39% 83%, 56% 85%, 76% 58%, 84% 35%, 91% 20%, 96% 5%, 72% 17%);
+    position: absolute;
+    top: 467px;
+    left: 265px;
+  }
+
+#fork {
+    width: 200px;
+    height: 200px;
+    background: #946d76;
+    clip-path: polygon(17% 96%, 10% 91%, 6% 85%, 29% 68%, 52% 45%, 59% 37%, 59% 29%, 55% 24%, 63% 11%, 69% 5%, 62% 26%, 82% 7%, 68% 32%, 88% 18%, 74% 38%, 65% 37%, 33% 75%);
+    position: absolute;
+    top: 338px;
+    left: 37px;
+  }
+
+    #knife {
+    width: 200px;
+    height: 200px;
+    background: #946d76;
+    clip-path: polygon(100% 21%, 81% 44%, 78% 48%, 46% 63%, 29% 98%, 37% 91%, 60% 69%, 81% 50%, 85% 48%, 100% 34%);
+    position: absolute;
+    top: 170px;
+    left: 700px;
+    }
+#over {
+	  width: 852px;
+    height: 331px;
+    background: #7dcbf5;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 87% 100%);
+    position: absolute;
+    top: 0px;
+    left: 48px;
+    mix-blend-mode: multiply;
+}
+  
+}
+/* animations */
+
+/*
+#clip:hover {
+	transform: rotate(1200deg);
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+@keyframes move {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(100px);
+  }
+}
+
+*/
