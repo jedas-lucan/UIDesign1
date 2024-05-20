@@ -16,7 +16,7 @@ p, li {
 	line-height: 30px;
 }
 
-span {
+.dropcap {
 	font-family: fantasy;
 	color: white;
 }
