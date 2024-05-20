@@ -16,6 +16,11 @@ p, li {
 	line-height: 30px;
 }
 
+span {
+	font-family: fantasy;
+	color: white;
+}
+
 /* adjusting spacing */
 
 #left-column {
